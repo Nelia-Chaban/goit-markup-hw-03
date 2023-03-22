@@ -17,6 +17,33 @@ body {
   color: var(--subtitle);
   background-color: var(--background-body);
 }
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid blueviolet;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
 /*===========================COMPONENTS================== */
 .logo {
   font-family: "Raleway", sans-serif;
@@ -41,12 +68,16 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
   color: #ffffff;
   background: #4d5ae5;
 }
 .botton:is(:hover, :focus) {
   background: #404bbf;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .section-title {
@@ -57,7 +88,9 @@ body {
   text-transform: capitalize;
 }
 /*======================= HEADER ======================*/
-
+.header {
+  padding-top: 24px;
+}
 .header-list {
 }
 
@@ -65,7 +98,6 @@ body {
 }
 
 .header-list-link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -95,6 +127,8 @@ body {
 /*=============================== HERO ====================*/
 .hero {
   background-color: var(--background-hero);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .main-title {
   font-size: 56px;
@@ -102,6 +136,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 48px;
 }
 /* =====================PRINCIPLES OF WORKS ===================== */
 
@@ -170,6 +205,8 @@ body {
 /* ======================FOOTER=========================== */
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .logo {
 }
@@ -198,7 +235,6 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  cursor: pointer;
   color: #4d5ae5;
   background: #f4f4fd;
 }
