@@ -1,0 +1,227 @@
+:root {
+  --title-text: #2e2f42;
+  --subtitle: #434455;
+  --primary-brand-pgup: #2e2f42;
+  --primary-brand-pgdn: #f4f4fd;
+  --background-body: #ffffff;
+  --background-hero: #2e2f42;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--subtitle);
+  background-color: var(--background-body);
+}
+/*===========================COMPONENTS================== */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-logo {
+  color: var(--primary-brand-pgdn);
+}
+.header-logo {
+  color: var(--primary-brand-pgup);
+}
+.botton {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+.botton:is(:hover, :focus) {
+  background: #404bbf;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/*======================= HEADER ======================*/
+
+.header-list {
+}
+
+.header-list-item {
+}
+
+.header-list-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-text);
+}
+.header-list-link:is(:hover, :focus) {
+  color: #404bbf;
+}
+.header-address {
+  font-style: normal;
+}
+
+.address-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.address-link:is(:hover, :focus) {
+  color: #404bbf;
+}
+
+.header-item {
+}
+
+/*=============================== HERO ====================*/
+.hero {
+  background-color: var(--background-hero);
+}
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+/* =====================PRINCIPLES OF WORKS ===================== */
+
+.principles-item {
+}
+.principles-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text);
+}
+.principles-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--subtitle);
+}
+.section-principles-item {
+}
+
+/*========================= WORK================= */
+.work-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-text);
+}
+
+.work-list-item {
+}
+/* ==========================TEAM============================ */
+.team {
+  background-color: #f4f4fd;
+}
+.team-list {
+}
+.team-list-item {
+  background-color: #ffffff;
+}
+.team-main-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-text);
+}
+.team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--title-text);
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--subtitle);
+}
+/* ======================FOOTER=========================== */
+.footer {
+  background-color: #2e2f42;
+}
+.logo {
+}
+.first-word-logo {
+}
+.footer-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+/*=========================== PORTFOLIO================================= */
+
+.portfolio-hero-list {
+}
+
+.list-item-btn {
+}
+
+.hero-item-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #4d5ae5;
+  background: #f4f4fd;
+}
+.hero-item-btn:is(:hover, :focus) {
+  color: #ffffff;
+  background: #404bbf;
+}
+.main-portfolio-title {
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--subtitle);
+}
