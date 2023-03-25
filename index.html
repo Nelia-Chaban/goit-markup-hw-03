@@ -7,8 +7,10 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link
@@ -43,7 +45,7 @@
           </ul>
         </nav>
         <address class="header-address">
-          <ul class="addres-list list">
+          <ul class="address-list list">
             <li class="address-item">
               <a class="address-link link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -63,14 +65,14 @@
       <section class="hero">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="botton">Order Service</button>
+          <button type="button" class="button hero-btn">Order Service</button>
         </div>
       </section>
       <!-- PRINCIPLES OF WORKS -->
       <section class="principles section">
         <div class="container">
           <h2 hidden class="principles-main-title">Principles of work</h2>
-          <ul class="principles-list list">
+          <ul class="principles-list list principles-wrapper">
             <li class="principles-item">
               <h3 class="principles-title">Strategy</h3>
               <p class="principles-description">
@@ -105,8 +107,8 @@
       <!-- WORK -->
       <section class="work section">
         <div class="container">
-          <h2 class="work-title">What are we doing</h2>
-          <ul class="work-list list">
+          <h2 class="work-title section-title">What are we doing</h2>
+          <ul class="work-list list work-wrapper">
             <li class="work-list-item">
               <img
                 src="./images/projects/computer.jpg"
@@ -137,43 +139,61 @@
       <!-- TEAM -->
       <section class="team section">
         <div class="container">
-          <h2 class="team-main-title">Our Team</h2>
-          <ul class="team-list list">
+          <h2 class="team-main-title section-title">Our Team</h2>
+          <ul class="team-list list team-wrapper">
             <li class="team-list-item">
-              <img
-                src="./images/our-team/mark-guerrero.jpg"
-                alt="Photo employee"
-                width="264"
-              />
-              <h3 class="team-title">Mark Guerrero</h3>
-              <p class="team-position">Product Designer</p>
+              <div class="team-img">
+                <img
+                  src="./images/our-team/mark-guerrero.jpg"
+                  alt="Photo employee"
+                  width="264"
+                />
+              </div>
+              <div class="img-content">
+                <h3 class="team-title">Mark Guerrero</h3>
+                <p class="team-position">Product Designer</p>
+              </div>
+            </li>
+
+            <li class="team-list-item">
+              <div class="team-img">
+                <img
+                  src="./images/our-team/tom-ford.jpg"
+                  alt="Photo employee"
+                  width="264"
+                />
+              </div>
+              <div class="img-content">
+                <h3 class="team-title">Tom Ford</h3>
+                <p class="team-position">Frontend Developer</p>
+              </div>
+            </li>
+
+            <li class="team-list-item">
+              <div class="team-img">
+                <img
+                  src="./images/our-team/camila-garcia.jpg"
+                  alt="Photo employee"
+                  width="264"
+                />
+              </div>
+              <div class="img-content">
+                <h3 class="team-title">Camila Garcia</h3>
+                <p class="team-position">Marketing</p>
+              </div>
             </li>
             <li class="team-list-item">
-              <img
-                src="./images/our-team/tom-ford.jpg"
-                alt="Photo employee"
-                width="264"
-              />
-              <h3 class="team-title">Tom Ford</h3>
-              <p class="team-position">Frontend Developer</p>
-            </li>
-            <li class="team-list-item">
-              <img
-                src="./images/our-team/camila-garcia.jpg"
-                alt="Photo employee"
-                width="264"
-              />
-              <h3 class="team-title">Camila Garcia</h3>
-              <p class="team-position">Marketing</p>
-            </li>
-            <li class="team-list-item">
-              <img
-                src="./images/our-team/daniel-wilson.jpg"
-                alt="Photo employee"
-                width="264"
-              />
-              <h3 class="team-title">Daniel Wilson</h3>
-              <p class="team-position">UI Designer</p>
+              <div class="team-img">
+                <img
+                  src="./images/our-team/daniel-wilson.jpg"
+                  alt="Photo employee"
+                  width="264"
+                />
+              </div>
+              <div class="img-content">
+                <h3 class="team-title">Daniel Wilson</h3>
+                <p class="team-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
