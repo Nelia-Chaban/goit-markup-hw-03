@@ -8,6 +8,12 @@
   --team-img-gap: 24px;
   --portfolio-img-gap: 24px;
   --portfolio-card-border: #e7e9fc;
+  --footer-text-color: #f4f4fd;
+  --background-footer: #2e2f42;
+  --portfolio-btn-text: #4d5ae5;
+  --portfolio-background-btn: #f4f4fd;
+  --portfolio-btn-text-hover: #ffffff;
+  --portfolio-btn-background-hover: #404bbf;
 }
 .list {
   list-style: none;
@@ -235,14 +241,12 @@ button {
   color: var(--subtitle);
   margin-top: 8px;
 }
-
 .img-content {
   padding: 32px 16px;
 }
-
 /* ======================FOOTER=========================== */
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--background-footer);
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -251,7 +255,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: var(--footer-text-color);
   max-width: 264px;
   margin-top: 16px;
 }
@@ -269,7 +273,7 @@ button {
 .list-itm-btn {
   display: flex;
 }
-.hero-item-btn {
+.hero-portfolio-btn {
   font-family: inherit;
   min-width: 69px;
   height: 48px;
@@ -282,14 +286,14 @@ button {
   align-items: center;
   padding: 12px 24px;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
+  color: var(--portfolio-btn-text);
+  background-color: var(--portfolio-background-btn);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
-.hero-item-btn:is(:hover, :focus) {
-  color: #ffffff;
-  background: #404bbf;
+.hero-portfolio-btn:is(:hover, :focus) {
+  color: var(--portfolio-btn-text-hover);
+  background-color: var(--portfolio-btn-background-hover);
 }
 .portfolio-list-wrapper {
   display: flex;
@@ -308,7 +312,7 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--title-text);
 }
 .portfolio-description {
   font-size: 16px;
